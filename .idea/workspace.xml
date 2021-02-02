@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 01">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612290093846</updated>
       <workItem from="1612290100980" duration="2050000" />
-      <workItem from="1612292917627" duration="1022000" />
+      <workItem from="1612292917627" duration="4222000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 01">
       <created>1612293313597</created>
@@ -179,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612293313598</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 01">
+      <created>1612293989075</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612293989075</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,10 +232,10 @@
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.695@0.0.1280.695" timestamp="1612293130718" />
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612293574621">
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612294013492">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612293574621" />
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612294013492" />
     <state x="93" y="93" width="1095" height="509" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612293317328">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
