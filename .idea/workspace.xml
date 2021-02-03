@@ -19,7 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 06. Managing Categories" />
+    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 06. Managing Categories">
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/StoreCategory.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +198,7 @@
       <workItem from="1612290100980" duration="2050000" />
       <workItem from="1612292917627" duration="6320000" />
       <workItem from="1612310019022" duration="2973000" />
-      <workItem from="1612346905146" duration="3716000" />
+      <workItem from="1612346905146" duration="7053000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 01">
       <created>1612293313597</created>
@@ -232,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612350304225</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Commit 06. Managing Categories">
+      <created>1612352011419</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612352011420</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,18 +305,18 @@
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.695@0.0.1280.695" timestamp="1612292666317" />
-    <state x="477" y="270" key="NewPhpFileDialog" timestamp="1612348966592">
+    <state x="477" y="270" key="NewPhpFileDialog" timestamp="1612354633896">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="477" y="270" key="NewPhpFileDialog/0.0.1280.695@0.0.1280.695" timestamp="1612348966592" />
+    <state x="477" y="270" key="NewPhpFileDialog/0.0.1280.695@0.0.1280.695" timestamp="1612354633896" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1612293130718">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.695@0.0.1280.695" timestamp="1612293130718" />
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612350310463">
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612352013770">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612350310463" />
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612352013770" />
     <state x="93" y="93" width="1095" height="509" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612293317328">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
