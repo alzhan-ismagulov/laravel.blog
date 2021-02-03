@@ -36,15 +36,15 @@
                                 </div>
                                 <div class="form-group">
                                     <label for="description">Цитата</label>
-                                    <textarea class="form-control" name="description" id="description" cols="30" rows="5" placeholder="Цитата"></textarea>
+                                    <textarea class="form-control @error('description') is-invalid @enderror" name="description" id="description" cols="30" rows="5" placeholder="Цитата"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="content">Контент</label>
-                                    <textarea class="form-control" name="content" id="content" cols="30" rows="10" placeholder="Контент"></textarea>
+                                    <textarea class="form-control @error('content') is-invalid @enderror" name="content" id="content" cols="30" rows="10" placeholder="Контент"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="category_id">Категория</label>
-                                    <select name="category_id" id="category_id" class="form-control">
+                                    <select name="category_id" id="category_id" class="form-control @error('category_id') is-invalid @enderror">
                                         <option>Выберите категорию</option>
                                         @foreach($categories as $id=>$title)
                                             <option value="{{ $id }}">{{ $title }}</option>
