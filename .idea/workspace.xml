@@ -20,15 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 04">
-      <change beforePath="$PROJECT_DIR$/.idea/laravel.blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.blog.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_03_000646_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_03_000646_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_03_000717_create_tags_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_03_000717_create_tags_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2021_02_03_000738_create_posts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_02_03_000738_create_posts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +197,7 @@
       <workItem from="1612290100980" duration="2050000" />
       <workItem from="1612292917627" duration="6320000" />
       <workItem from="1612310019022" duration="2973000" />
+      <workItem from="1612346905146" duration="2955000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 01">
       <created>1612293313597</created>
@@ -250,6 +250,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -288,10 +289,10 @@
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.695@0.0.1280.695" timestamp="1612292666317" />
-    <state x="477" y="270" key="NewPhpFileDialog" timestamp="1612310070683">
+    <state x="477" y="270" key="NewPhpFileDialog" timestamp="1612348966592">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="477" y="270" key="NewPhpFileDialog/0.0.1280.695@0.0.1280.695" timestamp="1612310070683" />
+    <state x="477" y="270" key="NewPhpFileDialog/0.0.1280.695@0.0.1280.695" timestamp="1612348966592" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1612293130718">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
