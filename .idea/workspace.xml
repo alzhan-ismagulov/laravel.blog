@@ -19,8 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 03">
+    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 04">
+      <change beforePath="$PROJECT_DIR$/.idea/laravel.blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel.blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Tag.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +143,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
     </include_path>
   </component>
   <component name="ProjectId" id="1nw94MANM4fPczqGOZKwO3G5j0O" />
@@ -146,6 +156,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -186,7 +197,7 @@
       <updated>1612290093846</updated>
       <workItem from="1612290100980" duration="2050000" />
       <workItem from="1612292917627" duration="6320000" />
-      <workItem from="1612310019022" duration="1568000" />
+      <workItem from="1612310019022" duration="2973000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 01">
       <created>1612293313597</created>
@@ -216,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612310727726</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Commit 04">
+      <created>1612311817381</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612311817381</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,10 +252,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Commit 01" />
     <MESSAGE value="Commit 02" />
     <MESSAGE value="Commit 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 03" />
+    <MESSAGE value="Commit 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 04" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="239" key="#Composer" timestamp="1612292330774">
@@ -276,10 +296,10 @@
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.695@0.0.1280.695" timestamp="1612293130718" />
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612310730607">
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612311819863">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612310730607" />
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612311819863" />
     <state x="93" y="93" width="1095" height="509" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612293317328">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
