@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 01">
+    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 02">
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +187,8 @@
       <option name="presentableId" value="Default" />
       <updated>1612290093846</updated>
       <workItem from="1612290100980" duration="2050000" />
-      <workItem from="1612292917627" duration="4222000" />
+      <workItem from="1612292917627" duration="6320000" />
+      <workItem from="1612310019022" duration="596000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 01">
       <created>1612293313597</created>
@@ -185,15 +204,34 @@
       <option name="project" value="LOCAL" />
       <updated>1612293989075</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 02">
+      <created>1612300783216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612300783218</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 01" />
+    <MESSAGE value="Commit 02" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 02" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="239" key="#Composer" timestamp="1612292330774">
@@ -224,18 +262,18 @@
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.695@0.0.1280.695" timestamp="1612292666317" />
-    <state x="477" y="270" key="NewPhpFileDialog" timestamp="1612293824327">
+    <state x="477" y="270" key="NewPhpFileDialog" timestamp="1612310070683">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="477" y="270" key="NewPhpFileDialog/0.0.1280.695@0.0.1280.695" timestamp="1612293824327" />
+    <state x="477" y="270" key="NewPhpFileDialog/0.0.1280.695@0.0.1280.695" timestamp="1612310070683" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1612293130718">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.695@0.0.1280.695" timestamp="1612293130718" />
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612294013492">
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1612300786989">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612294013492" />
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1612300786989" />
     <state x="93" y="93" width="1095" height="509" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612293317328">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
