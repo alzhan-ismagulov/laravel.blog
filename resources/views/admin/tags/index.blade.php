@@ -6,7 +6,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1>Тэги</h1>
+                    <h1>Теги</h1>
                 </div>
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
@@ -25,12 +25,12 @@
                 <div class="col-12">
                     <div class="card">
                         <div class="card-header">
-                            <h3 class="card-title">Список тэгов</h3>
+                            <h3 class="card-title">Список тегов</h3>
                         </div>
                         <!-- /.card-header -->
                         <div class="card-body">
                             <a href="{{ route('tags.create') }}" class="btn btn-primary mb-3">Добавить
-                                тэг</a>
+                                тег</a>
                             @if (count($tags))
                                 <div class="table-responsive">
                                     <table class="table table-bordered table-hover text-nowrap">
@@ -69,7 +69,7 @@
                                     </table>
                                 </div>
                             @else
-                                <p>Тэгов пока нет...</p>
+                                <p>Тегов пока нет...</p>
                             @endif
                         </div>
                         <!-- /.card-body -->
