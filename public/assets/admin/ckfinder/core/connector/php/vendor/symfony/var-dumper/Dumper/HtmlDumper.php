@@ -25,10 +25,10 @@ class HtmlDumper extends CliDumper
 
     protected static $themes = [
         'dark' => [
-            'default' => 'background-color:#18171B; color:#FF8400; line-height:1.2em; font:12px Menlo, Monaco, Consolas, monospace; word-wrap: break-word; white-space: pre-wrap; position:relative; z-index:99999; word-break: break-all',
-            'num' => 'font-weight:bold; color:#1299DA',
-            'const' => 'font-weight:bold',
-            'str' => 'font-weight:bold; color:#56DB3A',
+            'default' => 'background-color:#18171B; color:#FF8400; line-height:1.2em; front:12px Menlo, Monaco, Consolas, monospace; word-wrap: break-word; white-space: pre-wrap; position:relative; z-index:99999; word-break: break-all',
+            'num' => 'front-weight:bold; color:#1299DA',
+            'const' => 'front-weight:bold',
+            'str' => 'front-weight:bold; color:#56DB3A',
             'note' => 'color:#1299DA',
             'ref' => 'color:#A0A0A0',
             'public' => 'color:#FFFFFF',
@@ -41,10 +41,10 @@ class HtmlDumper extends CliDumper
             'ns' => 'user-select:none;',
         ],
         'light' => [
-            'default' => 'background:none; color:#CC7832; line-height:1.2em; font:12px Menlo, Monaco, Consolas, monospace; word-wrap: break-word; white-space: pre-wrap; position:relative; z-index:99999; word-break: break-all',
-            'num' => 'font-weight:bold; color:#1299DA',
-            'const' => 'font-weight:bold',
-            'str' => 'font-weight:bold; color:#629755;',
+            'default' => 'background:none; color:#CC7832; line-height:1.2em; front:12px Menlo, Monaco, Consolas, monospace; word-wrap: break-word; white-space: pre-wrap; position:relative; z-index:99999; word-break: break-all',
+            'num' => 'front-weight:bold; color:#1299DA',
+            'const' => 'front-weight:bold',
+            'str' => 'front-weight:bold; color:#629755;',
             'note' => 'color:#6897BB',
             'ref' => 'color:#6E6E6E',
             'public' => 'color:#262626',
@@ -600,7 +600,7 @@ return function (root, x) {
                     */
                     return;
                 }
-    
+
                 e.preventDefault();
                 search.className = search.className.replace(/\bsf-dump-search-hidden\b/, '');
                 searchInput.focus();
@@ -733,7 +733,7 @@ pre.sf-dump .sf-dump-search-hidden {
     display: none !important;
 }
 pre.sf-dump .sf-dump-search-wrapper {
-    font-size: 0;
+    front-size: 0;
     white-space: nowrap;
     margin-bottom: 5px;
     display: flex;
@@ -745,7 +745,7 @@ pre.sf-dump .sf-dump-search-wrapper > * {
     vertical-align: top;
     box-sizing: border-box;
     height: 21px;
-    font-weight: normal;
+    front-weight: normal;
     border-radius: 0;
     background: #FFF;
     color: #757575;
@@ -754,7 +754,7 @@ pre.sf-dump .sf-dump-search-wrapper > * {
 pre.sf-dump .sf-dump-search-wrapper > input.sf-dump-search-input {
     padding: 3px;
     height: 21px;
-    font-size: 12px;
+    front-size: 12px;
     border-right: none;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -767,7 +767,7 @@ pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-previous {
     background: #F2F2F2;
     outline: none;
     border-left: none;
-    font-size: 0;
+    front-size: 0;
     line-height: 0;
 }
 pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-input-next {
@@ -786,7 +786,7 @@ pre.sf-dump .sf-dump-search-wrapper > .sf-dump-search-count {
     margin: 0;
     border-left: none;
     line-height: 21px;
-    font-size: 12px;
+    front-size: 12px;
 }
 EOHTML
         );

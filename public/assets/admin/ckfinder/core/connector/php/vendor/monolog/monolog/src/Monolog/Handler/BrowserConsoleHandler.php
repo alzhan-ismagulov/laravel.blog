@@ -34,7 +34,7 @@ class BrowserConsoleHandler extends AbstractProcessingHandler
      */
     protected function getDefaultFormatter()
     {
-        return new LineFormatter('[[%channel%]]{macro: autolabel} [[%level_name%]]{font-weight: bold} %message%');
+        return new LineFormatter('[[%channel%]]{macro: autolabel} [[%level_name%]]{front-weight: bold} %message%');
     }
 
     /**
@@ -169,14 +169,14 @@ class BrowserConsoleHandler extends AbstractProcessingHandler
         preg_match_all('/\[\[(.*?)\]\]\{([^}]*)\}/s', $format, $matches, PREG_OFFSET_CAPTURE | PREG_SET_ORDER);
 
         foreach (array_reverse($matches) as $match) {
-            $args[] = '"font-weight: normal"';
+            $args[] = '"front-weight: normal"';
             $args[] = static::quote(static::handleCustomStyles($match[2][0], $match[1][0]));
 
             $pos = $match[0][1];
             $format = substr($format, 0, $pos) . '%c' . $match[1][0] . '%c' . substr($format, $pos + strlen($match[0][0]));
         }
 
-        $args[] = static::quote('font-weight: normal');
+        $args[] = static::quote('front-weight: normal');
         $args[] = static::quote($format);
 
         return array_reverse($args);
@@ -209,7 +209,7 @@ class BrowserConsoleHandler extends AbstractProcessingHandler
         if (empty($dict)) {
             return $script;
         }
-        $script[] = static::call('log', static::quote('%c%s'), static::quote('font-weight: bold'), static::quote($title));
+        $script[] = static::call('log', static::quote('%c%s'), static::quote('front-weight: bold'), static::quote($title));
         foreach ($dict as $key => $value) {
             $value = json_encode($value);
             if (empty($value)) {

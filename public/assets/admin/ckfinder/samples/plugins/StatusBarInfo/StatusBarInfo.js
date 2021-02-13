@@ -84,7 +84,7 @@ CKFinder.define( [ 'underscore', 'backbone', 'marionette', 'doT' ], function( _,
 			} );
 
 			// Set some nicer styles for the status bar content.
-			this.addCss( '#my-status-bar-region {padding: 0 1em;font-size:0.8em;font-weight:normal}' );
+			this.addCss( '#my-status-bar-region {padding: 0 1em;front-size:0.8em;front-weight:normal}' );
 		}
 	};
 } );
