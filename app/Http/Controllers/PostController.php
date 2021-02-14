@@ -13,6 +13,6 @@ class PostController extends Controller
 
     public function article()
     {
-//        return view('posts.index');
+        return view('posts.article');
     }
 }
