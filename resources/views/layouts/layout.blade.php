@@ -1,32 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Basic -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- Mobile Metas -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<!-- Site Metas -->
-<title>Markedia - Marketing Blog Template</title>
+<title>@yield('title')</title>
 <meta name="keywords" content="">
 <meta name="description" content="">
 <meta name="author" content="">
-
-<!-- Site Icons -->
 <link rel="shortcut icon" href="{{ asset('assets/front/images/favicon.ico') }}" type="image/x-icon" />
 <link rel="apple-touch-icon" href="{{ asset('assets/front/images/apple-touch-icon.png') }}">
-
 <link href="{{ asset('assets/front/css/front.css') }}" rel="stylesheet">
-<!-- Design fonts -->
 <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
-
-<!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-
 </head>
 <body>
 
@@ -37,7 +23,7 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="marketing-index.html"><img src="/assets/front/images/version/market-logo.png" alt=""></a>
+                <a class="navbar-brand" href="{{ route('home') }}"><img src="/assets/front/images/version/market-logo.png" alt=""></a>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
