@@ -3,6 +3,7 @@
 @section('title', 'Markedia - Marketing Blog Template :: ' . $post->title)
 
 @section('content')
+
     <div class="page-wrapper">
         <div class="blog-title-area">
             <ol class="breadcrumb hidden-xs-down">
@@ -51,6 +52,7 @@
                     @endforeach
                 </div><!-- end meta -->
             @endif
+
             <div class="post-sharing">
                 <ul class="list-inline">
                     <li><a href="#" class="fb-button btn btn-primary"><i class="fa fa-facebook"></i> <span
@@ -220,4 +222,5 @@
             </div>
         </div>
     </div><!-- end page-wrapper -->
+
 @endsection
