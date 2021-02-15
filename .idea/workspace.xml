@@ -19,14 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 16. Template 2">
+    <list default="true" id="ca0e2df3-0010-46ae-841c-cf0da11c6d5b" name="Default Changelist" comment="Commit 17. List of the posts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PostController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/admin/ckfinder/core/connector/php/vendor/cksource/ckfinder" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/admin/ckfinder/core/connector/php/vendor/cksource/ckfinder" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/layout.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/layout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/posts/article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/article.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -217,7 +215,7 @@
       <workItem from="1612436657920" duration="9746000" />
       <workItem from="1612476526597" duration="17000" />
       <workItem from="1613144021823" duration="3406000" />
-      <workItem from="1613164139477" duration="29193000" />
+      <workItem from="1613164139477" duration="31935000" />
     </task>
     <task id="LOCAL-00001" summary="Commit 01">
       <created>1612293313597</created>
@@ -317,7 +315,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613304040365</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Commit 17. List of the posts">
+      <created>1613345245405</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1613345245406</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +354,8 @@
     <MESSAGE value="Commit 14. CKEditor 3" />
     <MESSAGE value="Commit 15. Template 1" />
     <MESSAGE value="Commit 16. Template 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 16. Template 2" />
+    <MESSAGE value="Commit 17. List of the posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 17. List of the posts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="239" key="#Composer" timestamp="1612292330774">
@@ -392,10 +398,10 @@
       <screen x="0" y="0" width="1280" height="695" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.695@0.0.1280.695" timestamp="1612293130718" />
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1613304753942">
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2" timestamp="1613345247297">
       <screen x="0" y="0" width="1280" height="695" />
     </state>
-    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1613304753942" />
+    <state x="233" y="80" key="Vcs.Push.Dialog.v2/0.0.1280.695@0.0.1280.695" timestamp="1613345247297" />
     <state x="93" y="93" width="1095" height="509" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612293317328">
       <screen x="0" y="0" width="1280" height="695" />
     </state>

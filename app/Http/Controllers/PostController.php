@@ -15,6 +15,9 @@ class PostController extends Controller
 
     public function article($slug)
     {
-        return view('posts.article');
+        $post = Post::where('slug', $slug)->firstOrFail();
+        $post->views += 1;
+        $post->update();
+        return view('posts.article', compact('post'));
     }
 }
