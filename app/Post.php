@@ -55,4 +55,9 @@ class Post extends Model
     {
         return Carbon::createFromFormat('Y-m-d H:m:s', $this->created_at)->format('d F, Y');
     }
+
+    public function scopeLike($query, $s)
+    {
+        return $query->where('title', 'LIKE', "%{$s}%");
+    }
 }
